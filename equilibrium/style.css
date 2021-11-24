@@ -17,6 +17,7 @@ body {
 }
 .mainwrapper {
   display: block;
+  position: relative;
   background-color: hsl(216, 50%, 16%);
   width: 290px;
   margin: auto;
@@ -24,11 +25,6 @@ body {
   padding: 30px;
   margin-top: 9%;
   box-shadow: #0c1729 0px 0px 10px 10px, #0c1729 0px 0px 20px 20px;
-}
-.img {
-  max-width: 100%;
-  border-radius: 10px;
-  display: block;
 }
 
 .equilibrium {
@@ -77,4 +73,35 @@ body {
 .name:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+}
+.containerimage {
+  position: relative;
+  width: 100%;
+}
+.img {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: 0.3s ease;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 15px;
+}
+.containerimage:hover .overlay {
+  opacity: 0.5;
+}
+.viewicon {
+  display: block;
+  margin: auto;
+  margin-top: 40%;
 }
