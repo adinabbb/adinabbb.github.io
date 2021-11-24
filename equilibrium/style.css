@@ -26,7 +26,6 @@ body {
   margin-top: 9%;
   box-shadow: #0c1729 0px 0px 10px 10px, #0c1729 0px 0px 20px 20px;
 }
-
 .equilibrium {
   color: white;
   font-weight: 600;
@@ -52,27 +51,6 @@ body {
   height: 1px;
   background-color: hsl(215, 32%, 27%);
   border: 0px;
-}
-.avatar {
-  max-width: 10%;
-  border: solid 1px white;
-  border-radius: 20px;
-  margin-top: 10px;
-}
-.mainwrapper .text2 {
-  font-size: 16px;
-  font-weight: 400;
-  position: fixed;
-  margin-top: 15px;
-  margin-left: 15px;
-}
-.name {
-  color: white;
-  font-weight: bold;
-}
-.name:hover {
-  color: hsl(178, 100%, 50%);
-  cursor: pointer;
 }
 .containerimage {
   position: relative;
@@ -104,4 +82,24 @@ body {
   display: block;
   margin: auto;
   margin-top: 40%;
+}
+.avatar {
+  width: 10%;
+  border: 1px white solid;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.mainwrapper .credits {
+  font-size: 15px;
+  font-weight: 400;
+  float: right;
+  padding-top: 15px;
+  padding-right: 80px;
+}
+.name {
+  color: white;
+}
+.name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
