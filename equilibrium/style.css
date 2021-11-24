@@ -52,7 +52,7 @@ body {
   background-color: hsl(215, 32%, 27%);
   border: 0px;
 }
-.containerimage {
+.container {
   position: relative;
   width: 100%;
 }
@@ -64,6 +64,8 @@ body {
 }
 .overlay {
   position: absolute;
+  background: url("./images/icon-view.svg") no-repeat center
+    hsla(178, 100%, 50%, 0.5);
   top: 0;
   bottom: 0;
   left: 0;
@@ -71,17 +73,11 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transform: 0.3s ease;
-  background-color: hsl(178, 100%, 50%);
+  transition: 0.5s ease;
   border-radius: 15px;
 }
-.containerimage:hover .overlay {
-  opacity: 0.5;
-}
-.viewicon {
-  display: block;
-  margin: auto;
-  margin-top: 40%;
+.container:hover .overlay {
+  opacity: 1;
 }
 .avatar {
   width: 10%;
