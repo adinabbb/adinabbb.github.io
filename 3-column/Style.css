@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+:root {
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+  --Transwhite: hsla(0, 0%, 100%, 0.75);
+  --Lightgrey: hsl(0, 0%, 95%);
+}
+body {
+  background-color: var(--Transwhite);
+  font-size: 15px;
+}
+.mainwrapper {
+  width: 900px;
+  height: 480px;
+  margin: auto;
+  margin-top: 12%;
+  display: flex;
+  font-family: "Lexend Deca";
+  color: var(--Transwhite);
+  padding: 10px;
+  line-height: 27px;
+}
+.firstwr {
+  background-color: var(--Brightorange);
+  padding: 45px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.secondwr {
+  background-color: var(--Darkcyan);
+  padding: 47px;
+}
+.thirdwr {
+  background-color: var(--Verydarkcyan);
+  padding: 45px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.wrapperheadings {
+  font-size: 40px;
+  font-family: "big shoulders display";
+  color: var(--Lightgrey);
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 15%;
+}
+.icons {
+  margin-bottom: 30px;
+}
+.button1 {
+  background-color: var(--Lightgrey);
+  margin: 70px -10px;
+  border-radius: 25px;
+  width: 140px;
+  height: 45px;
+  color: var(--Brightorange);
+  text-align: center;
+  border: 2px solid transparent;
+}
+.button1:hover {
+  cursor: pointer;
+  background-color: var(--Brightorange);
+  color: var(--Lightgrey);
+  border: 2px solid var(--Lightgrey);
+}
+.buttontext {
+  margin-top: 9px;
+}
+.button2 {
+  background-color: var(--Lightgrey);
+  margin: 70px -10px;
+  border-radius: 25px;
+  width: 140px;
+  height: 45px;
+  color: var(--Darkcyan);
+  text-align: center;
+  border: 2px solid transparent;
+}
+.button2:hover {
+  cursor: pointer;
+  background-color: var(--Darkcyan);
+  color: var(--Lightgrey);
+  border: 2px solid var(--Lightgrey);
+}
+.button3 {
+  background-color: var(--Lightgrey);
+  margin: 70px -10px;
+  border-radius: 25px;
+  width: 140px;
+  height: 45px;
+  color: var(--Verydarkcyan);
+  text-align: center;
+  border: 2px solid transparent;
+}
+.button3:hover {
+  cursor: pointer;
+  background-color: var(--Verydarkcyan);
+  color: var(--Lightgrey);
+  border: 2px solid var(--Lightgrey);
+}
