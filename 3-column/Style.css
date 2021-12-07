@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  margin-top: 10px;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
 :root {
   --Brightorange: hsl(31, 77%, 52%);
   --Darkcyan: hsl(184, 100%, 22%);
@@ -106,4 +99,27 @@ body {
   background-color: var(--Verydarkcyan);
   color: var(--Lightgrey);
   border: 2px solid var(--Lightgrey);
+}
+
+@media only screen and (max-width: 400px) {
+  .mainwrapper {
+    display: block;
+    width: 90%;
+  }
+  .firstwr {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+  .thirdwr {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    margin-bottom: 30%;
+  }
+  .button1,
+  .button2,
+  .button3 {
+    margin: 20px 0px;
+  }
 }
