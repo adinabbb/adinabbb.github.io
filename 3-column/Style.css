@@ -8,7 +8,7 @@
   --Lightgrey: hsl(0, 0%, 95%);
 }
 body {
-  background-color: var(--Transwhite);
+  background-color: var(--Lightgrey);
   font-size: 15px;
 }
 .mainwrapper {
