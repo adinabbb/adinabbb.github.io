@@ -105,6 +105,8 @@ body {
   .mainwrapper {
     display: block;
     width: 90%;
+    height: auto;
+    margin-bottom: 30%;
   }
   .firstwr {
     border-top-left-radius: 10px;
@@ -115,7 +117,6 @@ body {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
-    margin-bottom: 30%;
   }
   .button1,
   .button2,
